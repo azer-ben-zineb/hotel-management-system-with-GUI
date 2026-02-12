@@ -1,4 +1,4 @@
-# Neon Hotel Management
+# Hotel Management System
 
 A cyberpunk-themed hotel management system built with C++20 and SFML 3.
 
