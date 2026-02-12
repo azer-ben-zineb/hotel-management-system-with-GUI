@@ -1,0 +1,210 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(58,34): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(230,115): error C2512: 'sf::Text': no appropriate default constructor available
+      C:\SFML-3.0.2\include\SFML\Graphics\Text.hpp(56,25):
+      see declaration of 'sf::Text'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(245,38): error C2039: 'width': is not a member of 'sf::Rect<float>'
+      C:\SFML-3.0.2\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(245,61): error C2039: 'left': is not a member of 'sf::Rect<float>'
+      C:\SFML-3.0.2\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(246,38): error C2039: 'height': is not a member of 'sf::Rect<float>'
+      C:\SFML-3.0.2\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(246,62): error C2039: 'top': is not a member of 'sf::Rect<float>'
+      C:\SFML-3.0.2\include\SFML\Graphics\Rect.hpp(42,7):
+      see declaration of 'sf::Rect<float>'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(286,105): error C2512: 'sf::Text': no appropriate default constructor available
+      C:\SFML-3.0.2\include\SFML\Graphics\Text.hpp(56,25):
+      see declaration of 'sf::Text'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(298,19): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(298,19):
+      while trying to match the argument list '(const T, T)'
+          with
+          [
+              T=float
+          ]
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(303,21): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(303,21):
+      while trying to match the argument list '(T, T)'
+          with
+          [
+              T=float
+          ]
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(355,83): error C2512: 'sf::Text': no appropriate default constructor available
+      C:\SFML-3.0.2\include\SFML\Graphics\Text.hpp(56,25):
+      see declaration of 'sf::Text'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(366,15): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(366,15):
+      while trying to match the argument list '(T, T)'
+          with
+          [
+              T=float
+          ]
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(414,16): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(414,16):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(452,27): error C2665: 'NeonButton::NeonButton': no overloaded function could convert all the argument types
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(230,5):
+      could be 'NeonButton::NeonButton(const sf::Font &,const std::string &,const sf::Vector2f &,const sf::Vector2f &)'
+          C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(452,27):
+          'NeonButton::NeonButton(const sf::Font &,const std::string &,const sf::Vector2f &,const sf::Vector2f &)': cannot convert argument 4 from 'float' to 'const sf::Vector2f &'
+              C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(452,66):
+              Reason: cannot convert from 'float' to 'const sf::Vector2f'
+              C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(452,66):
+              'sf::Vector2<float>::Vector2': no overloaded function could convert all the argument types
+                  C:\SFML-3.0.2\include\SFML\System\Vector2.hpp(205,1):
+                  could be 'sf::Vector2<float>::Vector2(sf::Vector2<float> &&)'
+                      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(452,66):
+                      'sf::Vector2<float>::Vector2(sf::Vector2<float> &&)': cannot convert argument 1 from 'float' to 'sf::Vector2<float> &&'
+                          C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(452,66):
+                          Reason: cannot convert from 'float' to 'sf::Vector2<float>'
+                          C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(452,66):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  C:\SFML-3.0.2\include\SFML\System\Vector2.hpp(205,1):
+                  or       'sf::Vector2<float>::Vector2(const sf::Vector2<float> &)'
+                      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(452,66):
+                      'sf::Vector2<float>::Vector2(const sf::Vector2<float> &)': cannot convert argument 1 from 'float' to 'const sf::Vector2<float> &'
+                          C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(452,66):
+                          Reason: cannot convert from 'float' to 'const sf::Vector2<float>'
+                          C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(452,66):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(452,66):
+                  while trying to match the argument list '(float)'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(452,27):
+      while trying to match the argument list '(sf::Font, const char [13], initializer list, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(470,26): error C2665: 'NeonButton::NeonButton': no overloaded function could convert all the argument types
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(230,5):
+      could be 'NeonButton::NeonButton(const sf::Font &,const std::string &,const sf::Vector2f &,const sf::Vector2f &)'
+          C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(470,26):
+          'NeonButton::NeonButton(const sf::Font &,const std::string &,const sf::Vector2f &,const sf::Vector2f &)': cannot convert argument 4 from 'float' to 'const sf::Vector2f &'
+              C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(470,69):
+              Reason: cannot convert from 'float' to 'const sf::Vector2f'
+              C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(470,69):
+              'sf::Vector2<float>::Vector2': no overloaded function could convert all the argument types
+                  C:\SFML-3.0.2\include\SFML\System\Vector2.hpp(205,1):
+                  could be 'sf::Vector2<float>::Vector2(sf::Vector2<float> &&)'
+                      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(470,69):
+                      'sf::Vector2<float>::Vector2(sf::Vector2<float> &&)': cannot convert argument 1 from 'float' to 'sf::Vector2<float> &&'
+                          C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(470,69):
+                          Reason: cannot convert from 'float' to 'sf::Vector2<float>'
+                          C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(470,69):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  C:\SFML-3.0.2\include\SFML\System\Vector2.hpp(205,1):
+                  or       'sf::Vector2<float>::Vector2(const sf::Vector2<float> &)'
+                      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(470,69):
+                      'sf::Vector2<float>::Vector2(const sf::Vector2<float> &)': cannot convert argument 1 from 'float' to 'const sf::Vector2<float> &'
+                          C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(470,69):
+                          Reason: cannot convert from 'float' to 'const sf::Vector2<float>'
+                          C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(470,69):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(470,69):
+                  while trying to match the argument list '(float)'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(470,26):
+      while trying to match the argument list '(sf::Font, const char [17], initializer list, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(545,15): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(545,15):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(550,19): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(550,19):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(555,15): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(555,15):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(568,17): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(568,17):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(575,17): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(575,17):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(586,17): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(586,17):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(596,22): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(596,22):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(605,17): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(605,17):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(621,17): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(621,17):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(628,20): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(628,20):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(637,17): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(637,17):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(645,20): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(645,20):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(654,17): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(654,17):
+      while trying to match the argument list '(float, float)'
+  
+C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(668,16): error C2660: 'sf::Transformable::setPosition': function does not take 2 arguments
+      C:\SFML-3.0.2\include\SFML\Graphics\Transformable.hpp(70,10):
+      see declaration of 'sf::Transformable::setPosition'
+      C:\Users\azerb\Desktop\projectcpp hotel\ConsoleApplication1\ConsoleApplication1.cpp(668,16):
+      while trying to match the argument list '(float, float)'
+  
