@@ -52,8 +52,8 @@ It solves the problem of managing basic hotel operations—booking rooms, tracki
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/neon-hotel-management.git
-    cd neon-hotel-management
+    git clone https://github.com/azer-ben-zineb/hotel-management-system-with-GUI
+    cd hotel-management-system-with-GUI
     ```
 
 2.  **Verify SFML Installation**
